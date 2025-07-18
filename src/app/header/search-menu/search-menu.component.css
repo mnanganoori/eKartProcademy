@@ -1,0 +1,22 @@
+.ekart--search--bar {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 2px 10px;
+  width: 300px;
+}
+
+.ekart--search--box {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 13px;
+}
+
+.search-icon {
+  color: #888;
+  cursor: pointer;
+  padding-left: 8px;
+  font-size: 16px;
+}

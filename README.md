@@ -25,3 +25,16 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Component
+Component is a building block in angular.
+
+## Data Binding 
+- Communication between Component and View template.
+- One way (component to view / view to component) using string interpolation {{variable}}and property `[property] = value`.
+- Two way data binding using `[ngModel]` 
+- Interpolation is used to just display a piece of data in HTML, such as displaying a title or name.
+- Property binding lets us bind a property of a DOM Object to some data value. This will let us show or hide a DOM element, or manipulate DOM in some other way.
+
+## Directive
+A directive is an instruction to DOM - it will tell to manipulate, change behavior and Add/remove DOM elements.
